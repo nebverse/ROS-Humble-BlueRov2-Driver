@@ -49,3 +49,23 @@ Make sure that your BlueRov is running "BlueOS" or an equivalent operating syste
 #### 5.2 Mavlink Communication
 
 ROS 2 relies on Mavlink communication to interact with your BlueRov. Ensure that your BlueRov is configured to establish Mavlink communication with your development environment. This typically involves configuring the communication settings on your ROV's companion computer or onboard computer.
+
+## Control Layout
+| **Control**              | **Gamepad Input**        | **Description**                                                | **RC Channel** |
+|---------------------------|--------------------------|----------------------------------------------------------------|----------------|
+| **Forward/Backward**      | Left Joystick (Up/Down)  | Move the ROV forward or backward.                             | RC5            |
+| **Lateral Movement**      | Left Joystick (Left/Right)| Strafe the ROV left or right.                                  | RC6            |
+| **Pitch (Tilt)**          | Right Joystick (Up/Down) | Tilt the ROV up or down.                                       | RC1            |
+| **Yaw (Rotate)**          | Right Joystick (Left/Right)| Rotate the ROV left or right.                                 | RC4            |
+| **Throttle (Depth Up)**   | Right Trigger           | Increase depth (move upward).                                  | RC3            |
+| **Throttle (Depth Down)** | Left Trigger            | Decrease depth (move downward).                                | RC3            |
+| **Camera Pan**            | D-Pad (Left/Right)      | Pan the camera horizontally.                                   | RC7            |
+| **Camera Tilt**           | D-Pad (Up/Down)         | Tilt the camera vertically.                                    | RC8            |
+| **Lights Intensity Up**   | Right Bumper            | Increase the intensity of the lights.                         | RC9            |
+| **Lights Intensity Down** | Left Bumper             | Decrease the intensity of the lights.                         | RC9            |
+| **Gripper Open**          | A Button                | Open the Newton Subsea Gripper.                               | RC10           |
+| **Gripper Close**         | B Button                | Close the Newton Subsea Gripper.                              | RC10           |
+| **Arm Thrusters**         | X Button                | Arm the ROV thrusters for operation.                          | -              |
+| **Disarm Thrusters**      | Y Button                | Disarm the ROV thrusters for safety.                          | -              |
+| **Clear Motion**          | Start Button            | Reset all motion controls to neutral values.                  | -              |
+| **Disarm and Stop**       | Select Button           | Disarm and safely stop all operations.                        | -              |
