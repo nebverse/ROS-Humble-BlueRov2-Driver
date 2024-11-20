@@ -27,7 +27,8 @@ setup(
             "yaw_controller = bluerov2_controller.yaw_controller:main",
             "input_controller = bluerov2_controller.input_controller:main",
             "video = bluerov2_controller.video:main",
-            "controller_with_gripper = bluerov2_controller.controller_with_gripper:main"
+            "controller_with_gripper = bluerov2_controller.controller_with_gripper:main",
+            "input_controller_basic = bluerov2_controller.input_controller_basic:main"
         ],
     },
 )
