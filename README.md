@@ -24,7 +24,7 @@ Next, you'll need to install ROS 2 Humble. Follow the official ROS 2 installatio
 Now that you have Ubuntu Jammy Jellyfish and ROS 2 Humble installed, you can proceed to clone the project repository to your computer. Open a terminal and run the following command:
 
 ```bash
-git clone https://github.com/Vincent1334/ROS-Humble-BlueRov2-Driver.git -b nebverse
+git clone https://github.com/nebverse/ROS-Humble-BlueRov2-Driver.git -b nebverse
 ```
 
 This will download the project's source code to your local machine.
