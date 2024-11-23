@@ -62,7 +62,7 @@ class Controller(Node):
         self.bar30_sub          = self.create_subscription(Bar30, "/bluerov2/bar30", self.callback_bar30, 10)    
         self.attitude_sub       = self.create_subscription(Attitude, "/bluerov2/attitude", self.callback_att, 10) 
 
-        Gst.init() 
+        Gst.init(None) 
 
 
         self.run()

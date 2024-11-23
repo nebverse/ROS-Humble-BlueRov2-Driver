@@ -1,0 +1,69 @@
+[0.821s] Invoking command in '/home/akshat/ROS-Humble-BlueRov2-Driver/src/bluerov2_controller': AMENT_PREFIX_PATH=/home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages:/home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bluerov2_controller build --build-base /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build install --record /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/install.log --single-version-externally-managed install_data
+[1.143s] running egg_info
+[1.143s] creating ../../build/bluerov2_controller/bluerov2_controller.egg-info
+[1.143s] writing ../../build/bluerov2_controller/bluerov2_controller.egg-info/PKG-INFO
+[1.144s] writing dependency_links to ../../build/bluerov2_controller/bluerov2_controller.egg-info/dependency_links.txt
+[1.144s] writing entry points to ../../build/bluerov2_controller/bluerov2_controller.egg-info/entry_points.txt
+[1.144s] writing requirements to ../../build/bluerov2_controller/bluerov2_controller.egg-info/requires.txt
+[1.144s] writing top-level names to ../../build/bluerov2_controller/bluerov2_controller.egg-info/top_level.txt
+[1.144s] writing manifest file '../../build/bluerov2_controller/bluerov2_controller.egg-info/SOURCES.txt'
+[1.146s] reading manifest file '../../build/bluerov2_controller/bluerov2_controller.egg-info/SOURCES.txt'
+[1.147s] writing manifest file '../../build/bluerov2_controller/bluerov2_controller.egg-info/SOURCES.txt'
+[1.147s] running build
+[1.147s] running build_py
+[1.148s] creating /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build
+[1.148s] creating /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib
+[1.148s] creating /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller
+[1.148s] copying bluerov2_controller/controller_with_gripper.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller
+[1.148s] copying bluerov2_controller/roll_controller.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller
+[1.148s] copying bluerov2_controller/pid.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller
+[1.148s] copying bluerov2_controller/depth_controller.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller
+[1.148s] copying bluerov2_controller/yaw_controller.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller
+[1.148s] copying bluerov2_controller/__init__.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller
+[1.149s] copying bluerov2_controller/video.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller
+[1.149s] copying bluerov2_controller/controller.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller
+[1.149s] copying bluerov2_controller/pitch_controller.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller
+[1.149s] copying bluerov2_controller/input_controller.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller
+[1.149s] copying bluerov2_controller/input_controller_basic.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller
+[1.150s] running install
+[1.150s] running install_lib
+[1.151s] creating /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller
+[1.151s] copying /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller/controller_with_gripper.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller
+[1.151s] copying /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller/roll_controller.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller
+[1.151s] copying /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller/pid.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller
+[1.151s] copying /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller/depth_controller.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller
+[1.152s] copying /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller/yaw_controller.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller
+[1.152s] copying /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller/__init__.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller
+[1.152s] copying /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller/video.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller
+[1.152s] copying /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller/controller.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller
+[1.152s] copying /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller/pitch_controller.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller
+[1.152s] copying /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller/input_controller.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller
+[1.152s] copying /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build/lib/bluerov2_controller/input_controller_basic.py -> /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller
+[1.153s] byte-compiling /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller/controller_with_gripper.py to controller_with_gripper.cpython-310.pyc
+[1.155s] byte-compiling /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller/roll_controller.py to roll_controller.cpython-310.pyc
+[1.156s] byte-compiling /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller/pid.py to pid.cpython-310.pyc
+[1.156s] byte-compiling /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller/depth_controller.py to depth_controller.cpython-310.pyc
+[1.157s] byte-compiling /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller/yaw_controller.py to yaw_controller.cpython-310.pyc
+[1.158s] byte-compiling /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller/__init__.py to __init__.cpython-310.pyc
+[1.158s] byte-compiling /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller/video.py to video.cpython-310.pyc
+[1.159s] byte-compiling /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller/controller.py to controller.cpython-310.pyc
+[1.161s] byte-compiling /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller/pitch_controller.py to pitch_controller.cpython-310.pyc
+[1.162s] byte-compiling /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller/input_controller.py to input_controller.cpython-310.pyc
+[1.163s] byte-compiling /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller/input_controller_basic.py to input_controller_basic.cpython-310.pyc
+[1.164s] running install_data
+[1.164s] copying resource/bluerov2_controller -> /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/share/ament_index/resource_index/packages
+[1.164s] copying package.xml -> /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/share/bluerov2_controller
+[1.164s] running install_egg_info
+[1.166s] Copying ../../build/bluerov2_controller/bluerov2_controller.egg-info to /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages/bluerov2_controller-0.0.0-py3.10.egg-info
+[1.167s] running install_scripts
+[1.190s] Installing controller script to /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/bluerov2_controller
+[1.190s] Installing controller_with_gripper script to /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/bluerov2_controller
+[1.191s] Installing depth_controller script to /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/bluerov2_controller
+[1.191s] Installing input_controller script to /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/bluerov2_controller
+[1.191s] Installing input_controller_basic script to /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/bluerov2_controller
+[1.191s] Installing pitch_controller script to /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/bluerov2_controller
+[1.191s] Installing roll_controller script to /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/bluerov2_controller
+[1.191s] Installing video script to /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/bluerov2_controller
+[1.191s] Installing yaw_controller script to /home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/bluerov2_controller
+[1.192s] writing list of installed files to '/home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/install.log'
+[1.219s] Invoked command in '/home/akshat/ROS-Humble-BlueRov2-Driver/src/bluerov2_controller' returned '0': AMENT_PREFIX_PATH=/home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_controller/lib/python3.10/site-packages:/home/akshat/ROS-Humble-BlueRov2-Driver/install/bluerov2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bluerov2_controller build --build-base /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/build install --record /home/akshat/ROS-Humble-BlueRov2-Driver/build/bluerov2_controller/install.log --single-version-externally-managed install_data
