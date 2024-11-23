@@ -29,7 +29,8 @@ setup(
             "video = bluerov2_controller.video:main",
             "controller_with_gripper = bluerov2_controller.controller_with_gripper:main",
             "input_controller_basic = bluerov2_controller.input_controller_basic:main",
-            "joystick_controller = bluerov2_controller.joystick_controller:main"
+            "joystick_controller = bluerov2_controller.joystick_controller:main",
+            "state_monitor = bluerov2_controller.state_monitor:main"
         ],
     },
 )
